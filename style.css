@@ -214,5 +214,29 @@ img{
     
 } */
 
+@media only screen and (max-width:750px) {
+
+    .searchBar{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    
+}
+
+@media only screen and (max-width:400px){
+
+    #search{
+        width: 250px;
+        height: 30px;
+    }
+
+    #btn{
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+}
+
 
 
